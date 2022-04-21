@@ -27,46 +27,46 @@
                 <div class="second-sentence">You<span class="italized"> know </span>you want to.</div>
             </div>
         </div>
-        <div class="second-row">
-            <div class="sentence">Let's do this!</div>
-            <form action="example.com/path" method="post">
-                <div class="form-first-row">
+        <form action="example.com/path" method="post">
+            <div class="second-row">
+                <div class="sentence">Let's do this!</div>
+                    <div class="form-first-row">
+                            <div>
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div>
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" id="lastName" required>
+                            </div>
+                    </div>
+                    <div class="form-second-row">
                         <div>
-                            <label for="firstName">FIRST NAME</label>
-                            <input type="text" id="firstName">
+                            <label for="user_email">EMAIL</label>
+                            <input type="email" id="user_email">
                         </div>
                         <div>
-                            <label for="lastName">LAST NAME</label>
-                            <input type="text" id="lastName">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" id="phone_number">
                         </div>
-                </div>
-                <div class="form-second-row">
-                    <div>
-                        <label for="user_email">EMAIL</label>
-                        <input type="email" id="user_email">
                     </div>
-                    <div>
-                        <label for="phone_number">PHONE NUMBER</label>
-                        <input type="tel" id="phone_number">
+                    <div class="form-third-row">
+                        <div>
+                            <label for="user_password">PASSWORD</label>
+                            <input type="password" id="user_password" required>
+                            <div class="error">*Passwords do not match</div>
+                        </div>
+                        <div>
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm_password">
+                        </div>
                     </div>
-                </div>
-                <div class="form-third-row">
-                    <div>
-                        <label for="user_password">PASSWORD</label>
-                        <input type="password" id="user_password">
-                        <div class="error">*Passwords do not match</div>
-                    </div>
-                    <div>
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password">
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="third-row">
-            <button type="submit">Create Account</button>
-            <div>Already have an account? <a href="#" class="login">Log in</a></div>
-        </div>
+            </div>
+            <div class="third-row">
+                <button type="submit">Create Account</button>
+                <div>Already have an account? <a href="#" class="login">Log in</a></div>
+            </div>
+        </form>
     </div>
 </body>
 </html>
