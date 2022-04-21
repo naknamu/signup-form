@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left">
+            <div class="logo">
+                <img src="images/odin-lined.png" alt="ODIN">
+                <div class="logo-text">ODIN</div>
+            </div>
+            <div class="bg-image-credits">Photo by 
+                <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> 
+                on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
+    </div>
+    <div class="right">
+        <div class="first-row">
+            <div class="container">
+                <div>This is not a real online service! You know you need something like this 
+                    in your life to help you realize your deepest dreams.</div>
+                <div>Sign up<span class="italized"> now </span> to get started.</div>
+                <div class="second-sentence">You<span class="italized"> know </span>you want to.</div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="sentence">Let's do this!</div>
+            <form action="example.com/path" method="post">
+                <div class="form-first-row">
+                        <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName">
+                        </div>
+                        <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName">
+                        </div>
+                </div>
+                <div class="form-second-row">
+                    <div>
+                        <label for="user_email">EMAIL</label>
+                        <input type="email" id="user_email">
+                    </div>
+                    <div>
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="tel" id="phone_number">
+                    </div>
+                </div>
+                <div class="form-third-row">
+                    <div>
+                        <label for="user_password">PASSWORD</label>
+                        <input type="password" id="user_password">
+                        <div class="error">*Passwords do not match</div>
+                    </div>
+                    <div>
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="third-row">
+            <button type="submit">Create Account</button>
+            <div>Already have an account? <a href="#" class="login">Log in</a></div>
+        </div>
+    </div>
+</body>
+</html>
